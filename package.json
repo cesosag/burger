@@ -89,5 +89,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "sass-loader": "^6.0.6"
   }
 }
