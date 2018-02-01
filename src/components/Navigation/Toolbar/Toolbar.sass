@@ -1,0 +1,40 @@
+.Toolbar
+  align-items: center
+  background-color: #703b09
+  display: flex
+  height: 56px
+  justify-content: space-between
+  left: 0
+  padding: 0 20px
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 90
+
+  nav
+    height: 100%
+
+.DesktopOnly
+  @media (max-width: 499px)
+    display: none
+
+.Menu
+  background: none
+  border: none
+  outline: none
+  width: 40px
+  height: 100%
+  display: flex
+  flex-flow: column
+  justify-content: space-around
+  align-items: center
+  padding: 10px 0
+  cursor: pointer
+
+  div
+    width: 35px
+    height: 3px
+    background-color: white
+
+  @media (min-width: 500px)
+    display: none

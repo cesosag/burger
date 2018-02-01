@@ -1,0 +1,36 @@
+.Item
+  display: block
+  margin: 10px 0
+  width: 100%
+
+  @media (min-width: 500px)
+    align-items: center
+    display: flex
+    height: 100%
+    margin: 0
+    width: auto
+
+  a
+    border-bottom: 4px solid transparent
+    color: #8f5c2c
+    display: block
+    text-decoration: none
+    transition: border-bottom 0.3s, background-color 0.3s
+    width: 100%
+
+    @media (min-width: 500px)
+      border-bottom: 4px solid transparent
+      color: white
+      height: 100%
+      padding: 16px 10px
+      transition: border-bottom 0.3s, background-color 0.3s
+
+
+    &.active,
+    &:active,
+    &:hover
+      color: 40a4c8
+
+      @media (min-width: 500px)
+        background-color: #8f5c2c
+        border-bottom: 4px solid #40a4c8
