@@ -1,7 +1,7 @@
 import React, { Fragment, PureComponent } from 'react';
 import classes from './Layout.sass';
-import Toolbar, { items } from '../Navigation/Toolbar/Toolbar';
-import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
+import Toolbar, { items } from '../../components/Navigation/Toolbar/Toolbar';
+import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 class Layout extends PureComponent {
   state = {
